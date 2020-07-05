@@ -9,10 +9,12 @@ Update a config:  connect -cmd update -n myname -update password:newpassword
 # how to use
 python connect.py  
 
+```python
 Select a number to connect:  
 [0] name1         ip1  
 [1] name2         ip2  
 [e] exit  
+```
 
 Enter a number to connect to the corresponding IP  
 
