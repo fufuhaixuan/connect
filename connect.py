@@ -35,7 +35,6 @@ def show_connect_list():
     exit_symbol = constants.SHOW_CONNECT_LIST_SYMBOL
     space_len = constants.SHOW_CONNECT_LIST_SPACE_LENGTH
 
-    print 'Evoca\'s remote connect manager. version: %s' % constants.__version__
     print 'Select a number to connect:'
     for idx, section in enumerate(all_sections):
         items_dict = get_options(section, config_parser)
